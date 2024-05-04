@@ -1,0 +1,171 @@
+body{
+    background-image: url(img9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+
+
+
+:root{
+    --primary-color: #eaeeeb;
+    --second-color: #ffffff;
+    --black-color: #000000;
+}
+
+.box {
+    position: relative;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: .5em .1em .1em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center; 
+}
+
+
+.banner {
+    border-radius: 15px;
+    width: 300px;
+    margin-right: 0;
+    text-align: center;
+    margin-right: px ;
+    height: 120;
+}
+
+.logo {
+    border-radius: 120px;
+    margin-right: 20px ;
+    height: 120;
+}
+
+
+.wild li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 120px;
+    
+}
+
+.wild a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.toolate{
+    margin: 0;
+}
+
+.cool a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+.container { 
+        display: flex;
+        align-items: center; 
+        margin-top: px;
+        margin-left: 100px;
+
+}
+
+  .model {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .spam {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .about {
+    width: 800px;
+    height: 300;
+    border: solid 2px var(--second-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(73, 151, 73);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #92eb96;
+    background:#273f19;
+    text-align: center;
+    width: 100%;
+}
+
+
+.textblock {
+    margin-bottom: 10px;
+}
+
+
+
+.hat {
+    width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.wrapper {
+    margin: 150px auto;
+    width: 95%;
+    backdrop-filter: blur(26px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .1em 1.5em 1.5em;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.textbox {
+    color: white;
+}
+
+.textbox h2 {
+    font-size: 42px;
+}
+
+.textbox p {
+    font-size: 20px;
+}
+
+
+
+
+

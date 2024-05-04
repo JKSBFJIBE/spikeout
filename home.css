@@ -1,0 +1,309 @@
+body{
+    background-image: url(img9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+:root{
+    --primary-color: #eaeeeb;
+    --second-color: #ffffff;
+    --black-color: #000000;
+}
+
+.box {
+    position: relative;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: .5em .1em .1em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+}
+
+.box2nd {
+    position: relative;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.banner {
+    border-radius: 15px;
+    width: 300px;
+    height: 120px;
+    margin-right: 0;
+    text-align: center;
+    margin-right: px ;
+}
+
+.logo {
+    border-radius: 120px;
+    margin-right: 20px ;
+    height: 120;
+}
+
+
+.wild li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 120px;
+    
+}
+
+.wild a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.toolate{
+    margin: 0;
+}
+
+.cool a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+}
+
+
+.hatdog {
+        display: flex;
+        flex-direction: column; /* Stack the boxes vertically */
+        align-items: center; /* Center the boxes horizontally */
+}
+
+.container { 
+    display: flex;
+        align-items: center; /* Center the boxes horizontally */
+        margin-top: 20px;
+
+}
+
+.mini-box {
+    position: relative;
+    width: 200px;
+    height: 200;
+    background-image: url(img14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em 1.5em 5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
+  .model {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .spam {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .about {
+    width: 800px;
+    height: 300;
+    border: solid 2px var(--second-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(73, 151, 73);
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #92eb96;
+    background:#273f19;
+    text-align: center;
+}
+
+.gallery {
+    border-radius: 10px;
+    margin-left: 20px ;
+    width: 215px;
+    height: 215px;
+    margin-right: 20px;
+}
+
+.boxprof {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2px;
+    margin-top: 10px;
+
+}
+
+.risen {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.textblock {
+    margin-bottom: 10px;
+}
+
+.notice {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 700px; 
+    margin: 0 auto; 
+    text-align: center; 
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px; 
+    font-size: 18px;
+    border: none;
+    background-color: #007bff; 
+    color: #fff;
+    border-radius: 8px; 
+    cursor: pointer; 
+    margin-top: 20px
+}
+
+.actbox {
+    position: relative;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: .5em .5em .5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.actmini-box {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: url(img14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em 1.5em 5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .actmodel {
+    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+
+  }
+
+  .hello {
+    width: 400px;
+    border-radius: 20px;
+  }
+
+.pics {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+
+}
+
+.ll {
+    margin-right: 100px;
+}
+
+.pew {
+    color:#000000;
+    font-size: 24px;
+}
+
+.notice {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it appears above other elements */
+    display: none; /* Initially hidden */
+  }
+  
+  .closebtn {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 20px;
+  }
+  
+  .notice.show {
+    display: block; /* Display when the show class is added */
+  }
+
+

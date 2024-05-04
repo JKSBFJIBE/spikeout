@@ -1,0 +1,350 @@
+body{
+    background-image: url(img9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --primary-color: #eaeeeb;
+    --second-color: #ffffff;
+    --black-color: #000000;
+}
+
+.login-box {
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+
+.design-box {
+    position: relative;
+    width: 800px;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 45px;
+    height: 919px;
+}
+
+.design-header {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content:center;
+    background-color: var(--primary-color);
+    width: 170px;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+}
+
+.design-header span {
+    margin-top: 7px;
+    font-size: 50px;
+    color: var(--black-color);
+    display: inline-block;
+    font-family: serif;
+}
+
+
+
+.login-header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content:center;
+    /*background-color: var(--primary-color);*/
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.login-header span:first-child {
+  margin-right: px; /* Add space to the right of the first word */
+}
+
+.login-header span:last-child {
+  margin-left: 10px; /* Add space to the left of the second word */
+}
+
+
+
+.design-header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 50%;
+    background: transparent;
+    box-shadow: 15px 0 0 0 var(--primary-color);
+}
+
+.design-header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: -30px;
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 50%;
+    background: transparent;
+    box-shadow: -15px 0 0 0 var(--primary-color);
+}
+
+
+    
+
+/*
+.wrapper {
+    margin-left: 80px;
+    width: 100;
+    display: flex;
+    justify-content: cent;
+    align-items: enter;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+*/
+.login-box {
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.2);
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    background: transparent;
+    color: var(--second-color) ;
+    padding-inline: 20px 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    outline: none;
+}
+
+.input-field2nd {
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    background: transparent;
+    background-color: #000000;
+    color: var(--second-color) ;
+    padding-inline: 20px 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    outline: none;
+}
+
+
+
+#user {
+    margin-bottom: 10px;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: 0.2s;
+}
+
+.input-field:focus ~ .label,
+.input-field:valid .label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 14px;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.input-submit {
+    
+    width: 300px;
+    height: 50px;
+    background: #ececec;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.input-submit:hover {
+    background: var(--second-color);
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 564px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    .login-box {
+        padding: 7.5em 1.5em 4em 1.5em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.pic {
+    border-radius: 20px;
+    width: 300;
+    margin-left: -400;
+}
+
+
+
+
+.container {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically in the center */
+
+  }
+  
+  .container img {
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 300;
+  }
+
+  .container p {
+    font-family: Arial;
+    font-size: 25;
+  }
+
+  .hatdog {
+    border-radius: 20px;
+    width: 300;
+  }
+  
+  .container2nd {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Align items vertically in the center */
+
+  }
+  
+  .container2nd img {
+    margin-right: 5px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 240;
+    height: 240;
+  }
+
+  .mini-box {
+    position: relative;
+    width: 700px;
+    height: 130;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: .5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .mini-header {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content:center;
+    /*background-color: var(--primary-color);*/
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+}
+
+.bleh {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17;
+    margin-left: -410px;
+    margin-top: 50px;
+}
+
+.space { 
+    font-size: 30px;
+color: var(--second-color);
+display: inline-block;
+}
+
+.login-header span {
+    font-size: 30px;
+    color: var(--second-color);
+    display: inline-block;
+}

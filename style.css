@@ -1,0 +1,197 @@
+body{
+    background-image: url(img9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root{
+    --primary-color: #eaeeeb;
+    --second-color: #ffffff;
+    --black-color: #000000;
+}
+
+.login-box{
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.login-box img {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.login-header{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content:center;
+    /*background-color: var(--primary-color);*/
+    width: 140px;
+    height: 70px;
+    border-radius: 0 0 20px 20px;
+}
+
+.login-header span {
+    font-size: 30px;
+    color: var(--second-color);
+    display: inline-block;
+}
+
+.login-header span:first-child {
+  margin-right: px; /* Add space to the right of the first word */
+}
+
+.login-header span:last-child {
+  margin-left: 10px; /* Add space to the left of the second word */
+}
+
+.wrapper {
+    width: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 00vh;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.login-box {
+    position: relative;
+    width: 450px;
+    backdrop-filter: blur(25px);
+    border: 2px solid var(--primary-color);
+    border-radius: 15px;
+    padding: 7.5em 2.5em 4em 2.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgb(0, 0, 0, 0.2);
+}
+
+.input-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.input-field {
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    background: transparent;
+    color: var(--second-color) ;
+    padding-inline: 20px 50px;
+    border: 2px solid var(--primary-color);
+    border-radius: 30px;
+    outline: none;
+}
+
+#user {
+    margin-bottom: 10px;
+}
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    transition: 0.2s;
+}
+
+.input-field:focus ~ .label,
+.input-field:valid .label {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 14px;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.icon {
+    position: absolute;
+    top: 18px;
+    right: 25px;
+    font-size: 20px;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.input-submit {
+    
+    width: 300px;
+    height: 50px;
+    background: #ececec;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3;
+}
+
+.input-submit:hover {
+    background: var(--second-color);
+}
+
+.register {
+    text-align: center;
+}
+
+.register a {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 564px) {
+    .wrapper {
+        padding: 20px;
+    }
+
+    .login-box {
+        padding: 7.5em 1.5em 4em 1.5em;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 30px;
+    color: #f9f9f9;
+    font-size: 20px;
+}
+
+
+
+

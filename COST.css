@@ -1,0 +1,22 @@
+
+
+img {
+    max-width: 320px;
+}
+
+.king {
+    margin: 150px auto;
+    width: 70%;
+}
+
+.queen {
+    color: white;
+}
+
+.queen h2 {
+    font-size: 42px;
+}
+
+.queen p {
+    font-size: 16px;
+}

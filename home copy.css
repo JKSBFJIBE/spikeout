@@ -1,0 +1,242 @@
+body{
+    background-image: url(5eeea355389655.59822ff824b72.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+:root{
+    --primary-color: #eaeeeb;
+    --second-color: #ffffff;
+    --black-color: #000000;
+}
+
+.box {
+    position: relative;
+    width: 1300px;
+    height: 150px;
+    background-color: #4ece78;
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--black-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.box2nd {
+    position: relative;
+    width: 1300px;
+    height: 700px;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.banner {
+    border-radius: 15px;
+    width: 400px;
+    margin-right: 0;
+    text-align: center;
+    margin-right: 50px ;
+}
+
+.logo {
+    border-radius: 70px;
+    margin-right: 50px ;
+}
+
+
+.wild li {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 130px;
+    
+}
+
+.wild a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--second-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.toolate{
+    margin: 0;
+}
+
+.cool a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+    color: #000000;
+}
+
+
+.hatdog {
+        display: flex;
+        flex-direction: column; /* Stack the boxes vertically */
+        align-items: center; /* Center the boxes horizontally */
+}
+
+.container { 
+    display: flex;
+        align-items: center; /* Center the boxes horizontally */
+        margin-top: 20px;
+
+}
+
+.mini-box {
+    position: relative;
+    width: 200px;
+    height: 200;
+    background-image: url(img14.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em 1.5em 5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+
+  .model {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+
+  }
+
+  .p {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .spam {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+
+  .about {
+    width: 800px;
+    height: 300;
+    border: solid 2px var(--second-color);
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: green;
+    padding: 1.5em 1.5em 1.5em 1.5em;
+  }
+
+  footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #92eb96;
+    background:#273f19;
+    text-align: center;
+}
+
+.gallery {
+    border-radius: 10px;
+    margin-left: 20px ;
+    width: 215px;
+    height: 215px;
+    margin-right: 20px;
+}
+
+.boxprof {
+    position: relative;
+    width: 500px;
+    height: 450px;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2px;
+    margin-top: 10px;
+
+}
+
+.risen {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.textblock {
+    margin-bottom: 10px;
+}
+
+.notice {
+    background-color: #f2f2f2; 
+    color: #333; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: 700px; 
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 75px;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px; 
+    font-size: 18px; 
+    border: none; 
+    background-color: #007bff; 
+    border-radius: 8px;
+    cursor: pointer; 
+    margin-top: 20px
+}
+
+.actbox {
+    position: relative;
+    width: 1300px;
+    height: 700px;
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--second-color);
+    border-radius: 15px;
+    padding: 1.5em .5em 1.5em 1.5em;
+    color: var(--second-color);
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+
+
