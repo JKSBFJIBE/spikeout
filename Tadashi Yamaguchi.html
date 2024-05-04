@@ -1,0 +1,170 @@
+<html>
+    <heead>
+        <link rel="stylesheet" href="home copy 2.css">
+        
+        <meta name="viewport" content="width=device-width ,intial-sacale=1.0">
+        <meta charset="UTF-8">
+        <style>
+              
+
+
+
+        }
+        
+        .box {
+        width: 40%;
+        margin: 0 auto;
+        background: rgba(41, 35, 35, 0.2);
+        padding: 35px;
+        border: 2px solid #fff;
+        border-radius: 20px/50px;
+        background-clip: padding-box;
+        text-align: center;
+        }
+        
+        .button {
+        font-size: 1em;
+        padding: 10px;
+        color: #fff;
+        border: 2px solid #06D85F;
+        border-radius: 20px/50px;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        }
+        .button:hover {
+        background: #06D85F;
+        }
+        
+        .overlay {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0, 0, 0, 0.7);
+        transition: opacity 500ms;
+        visibility: hidden;
+        opacity: 0;
+        }
+        .overlay:target {
+        visibility: visible;
+        opacity: 1;
+        }
+        
+        .popup {
+        margin: 70px auto;
+        padding: 20px;
+        background: #fff;
+        border-radius: 5px;
+        width: 30%;
+        position: relative;
+        transition: all 5s ease-in-out;
+        }
+        
+        .popup h2 {
+        margin-top: 0;
+        color: #333;
+        font-family: Tahoma, Arial, sans-serif;
+        }
+        .popup .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        transition: all 200ms;
+        font-size: 30px;
+        font-weight: bold;
+        text-decoration: none;
+        color: #333;
+        }
+        .popup .close:hover {
+        color: #06D85F;
+        }
+        .popup .content {
+        max-height: 30%;
+        overflow: auto;
+        }
+        
+        @media screen and (max-width: 700px){
+        .box{
+        width: 70%;
+        }
+        .popup{
+        width: 70%;
+        }
+        }
+        
+        
+            </style>
+
+
+
+      
+    </heead>
+    <body>
+        <div class="box">
+            <img src="logo.png" class="logo">
+            <img src="banner.png" class="banner">
+
+            <nav class="wild">
+                <ul>
+                    <li  class="cool"><a href="home.html" >Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="index.html">Log In</a></li>
+                    <li><a href="#popup1">Log Out</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="ACTIVITIES.html">Activities</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>   
+        </div>
+        <br>
+        <div class="wrapper">
+            <img src="16.jpg" class="hat">
+            <div class="textbox">
+                <h2>TADASHI YAMAGUCHI</h2>
+                
+                <P><b>Date of Birth :</b>
+                    November 10, 1996</P>
+                <P><b>Height : </b>
+                    
+179.5 cm (5' 10.7") - Apr 2012
+180.0 cm (5' 10.9") - Nov 2012</P>
+                <P><b>Teams :</b>
+                    
+Unknown Middle School (Former)
+Karasuno High</P>
+
+                <P><b>Number :</b>
+                    7 (Middle School)
+12 (High School 1st Year)
+1 (High School 3rd Year)</P>
+                <P><b>Position :</b>
+                
+                <a href="Middle Blocker.html" ><b>Middle Blocker</b></a>
+                <a href="Pinch Server.html" ><b>Pinch Server</b></a>
+                Captain (3rd Year)</P>
+                <p>
+                    <b>Tadashi Yamaguchi</b> (Japanese: 山口やまぐち 忠ただし Yamaguchi Tadashi) was a first-year student at Karasuno High. He was a middle blocker and pinch server for the Boys' Volleyball Team. During his third-year, he became the team captain.
+                        He is currently a college student and is planning to work for a home electronics company in Miyagi once he graduates. 
+                </p>
+            </div>
+        </div>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Logged out!</h2>
+                <a class="close" href="index.html">&times;</a>
+                <div class="content">
+                  After you logged out, the system automatically redirected you to the login page.
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+    </footer>
+</html>

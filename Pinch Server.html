@@ -1,0 +1,149 @@
+<html>
+    <heead>
+        <link rel="stylesheet" href="home copy 2.css">
+        
+        <meta name="viewport" content="width=device-width ,intial-sacale=1.0">
+        <meta charset="UTF-8">
+        <style>
+
+
+
+        }
+    
+    .box {
+      width: 40%;
+      margin: 0 auto;
+      background: rgba(41, 35, 35, 0.2);
+      padding: 35px;
+      border: 2px solid #fff;
+      border-radius: 20px/50px;
+      background-clip: padding-box;
+      text-align: center;
+    }
+    
+    .button {
+      font-size: 1em;
+      padding: 10px;
+      color: #fff;
+      border: 2px solid #06D85F;
+      border-radius: 20px/50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    .button:hover {
+      background: #06D85F;
+    }
+    
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 30%;
+      position: relative;
+      transition: all 5s ease-in-out;
+    }
+    
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06D85F;
+    }
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+    
+    @media screen and (max-width: 700px){
+      .box{
+        width: 70%;
+      }
+      .popup{
+        width: 70%;
+      }
+    }
+    
+        </style>
+
+
+
+      
+    </heead>
+    <body>
+        <div class="box">
+            <img src="logo.png" class="logo">
+            <img src="banner.png" class="banner">
+
+            <nav class="wild">
+                <ul>
+                    <li  class="cool"><a href="home.html" >Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="index.html">Log In</a></li>
+                    <li><a href="#popup1">Log Out</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="ACTIVITIES.html">Activities</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>   
+        </div>
+        <br>
+        <div class="wrapper">
+            <img src="22.jpg" class="hat">
+            <div class="textbox">
+                <h2>Pinch Server</h2>
+                
+                <P>The <b>Pinch Servers</b> are switched into the game to get an advantage over the opponents or at crucial times, usually near match point. The serves usually have to be extremely powerful or unique, such as the Jump Float Serve or the underhand Ceiling Serve seen during the Tokyo Spring Nationals.</P>
+                <P><b>Serve Controllers</b> are pinch servers who have impressive control over their serves, adding rotation to the ball so that the receivers won't be able to receive the ball properly. Alternatively, they can also aim their serves to head directly between two people or aiming at the weakest receiver or simply curve the ball to the open area of the court.</P>
+
+                <P><b>Power Servers</b> another type of pinch server that can get a service ace. Rather than relying on control, these servers rely on pure brute strength. They are capable of serves resembling spikes, as the power behind them increases their speed drastically. The ball will be so fast and strong that the receiver will have a tough time trying to receive it. If the receiver does receive the ball, it will either come back to the serving team as a chance ball or bounce off the court.</P>
+                
+            </div>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Logged out!</h2>
+                <a class="close" href="index.html">&times;</a>
+                <div class="content">
+                  After you logged out, the system automatically redirected you to the login page.
+                </div>
+            </div>
+        </div>
+        
+    </body>
+    <footer>
+        <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+    </footer>
+</html>

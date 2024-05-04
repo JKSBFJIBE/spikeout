@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+        <style>
+
+
+
+        }
+    
+    .box {
+      width: 40%;
+      margin: 0 auto;
+      background: rgba(41, 35, 35, 0.2);
+      padding: 35px;
+      border: 2px solid #fff;
+      border-radius: 20px/50px;
+      background-clip: padding-box;
+      text-align: center;
+    }
+    
+    .button {
+      font-size: 1em;
+      padding: 10px;
+      color: #fff;
+      border: 2px solid #06D85F;
+      border-radius: 20px/50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    .button:hover {
+      background: #06D85F;
+    }
+    
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 30%;
+      position: relative;
+      transition: all 5s ease-in-out;
+    }
+    
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06D85F;
+    }
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+    
+    @media screen and (max-width: 700px){
+      .box{
+        width: 70%;
+      }
+      .popup{
+        width: 70%;
+      }
+    }
+    
+        </style>
+    </head>
+    <body>
+        
+            <div class="box">
+                <img src="logo.png" class="logo">
+                <img src="banner.png" class="banner">
+
+                <nav class="wild">
+                    <ul>
+                        <li><a href="home.html" >Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Profile.html">Profile</a></li>
+                        <li><a href="index.html">Log In</a></li>
+                        <li><a href="#popup1">Log Out</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li><a href="ACTIVITIES.html">Activities</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li class="cool"><a href="videos.html">Videos</a></li>
+                    </ul>
+                </nav>
+            </div><br>
+
+        
+            <div class="box2nd">
+                <div class="container">
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=eUlzTvfdTys&pp=ygULaGFpa3l1IGVwIDE%3D"><img src="ep1.jpg" class="model"></a>
+                        <h3>Episode 1</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=zuruYfpH26A&pp=ygULaGFpa3l1IGVwIDI%3D"><img src="ep2.jpg" class="model"></a>
+                        <h3>Episode 2</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=_DB5VpyUI1U&pp=ygULaGFpa3l1IGVwIDM%3D"><img src="ep3.jpg" class="model"></a>
+                        <h3>Episode 3</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=Ruwu0gLicbE&pp=ygULaGFpa3l1IGVwIDQ%3D"><img src="ep4.jpg" class="model"></a>
+                        <h3>Episode 4</h3>
+                        
+                    </div>
+                </div>
+
+                <div class="container">
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=wf-Cj5bnjXI&pp=ygULaGFpa3l1IGVwIDU%3D"><img src="ep5.jpg" class="model"></a>
+                        <h3>Episode 5</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=QRVjLwzngLQ&pp=ygULaGFpa3l1IGVwIDY%3D"><img src="ep6.jpg" class="model"></a>
+                        <h3>Episode 6</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=YvmDgSymjr0&pp=ygULaGFpa3l1IGVwIDc%3D"><img src="ep7.jpg" class="model"></a>
+                        <h3>Episode 7</h3>
+                        
+                    </div>
+
+                    <div class="mini-box">
+                        <a href="https://www.youtube.com/watch?v=kjWLtcw6j24&pp=ygULaGFpa3l1IGVwIDg%3D"><img src="ep8.jpg" class="model"></a>
+                        <h3>Episode 8</h3>
+                        
+                    </div>
+                </div>
+            
+            </div><div id="popup1" class="overlay">
+                <div class="popup">
+                    <h2>You're now logged out. Thank you for using our website<3</h2>
+                    <a class="close" href="index.html">&times;</a>
+                    <div class="content">
+                      After you logged out, the system automatically redirected you to the login page.
+                    </div>
+                </div>
+            </div>
+    </body>
+    <footer>
+        <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+    </footer>
+</html>

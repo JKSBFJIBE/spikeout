@@ -1,0 +1,150 @@
+<html>
+    <heead>
+        <link rel="stylesheet" href="home copy 2.css">
+        
+        <meta name="viewport" content="width=device-width ,intial-sacale=1.0">
+        <meta charset="UTF-8">
+        <style>
+
+
+
+        }
+    
+    .box {
+      width: 40%;
+      margin: 0 auto;
+      background: rgba(41, 35, 35, 0.2);
+      padding: 35px;
+      border: 2px solid #fff;
+      border-radius: 20px/50px;
+      background-clip: padding-box;
+      text-align: center;
+    }
+    
+    .button {
+      font-size: 1em;
+      padding: 10px;
+      color: #fff;
+      border: 2px solid #06D85F;
+      border-radius: 20px/50px;
+      text-decoration: none;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+    }
+    .button:hover {
+      background: #06D85F;
+    }
+    
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .overlay:target {
+      visibility: visible;
+      opacity: 1;
+    }
+    
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 30%;
+      position: relative;
+      transition: all 5s ease-in-out;
+    }
+    
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06D85F;
+    }
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+    
+    @media screen and (max-width: 700px){
+      .box{
+        width: 70%;
+      }
+      .popup{
+        width: 70%;
+      }
+    }
+    
+        </style>
+
+
+
+      
+    </heead>
+    <body>
+        <div class="box">
+            <img src="logo.png" class="logo">
+            <img src="banner.png" class="banner">
+
+            <nav class="wild">
+                <ul>
+                    <li  class="cool"><a href="home.html" >Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="index.html">Log In</a></li>
+                    <li><a href="#popup1">Log Out</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="ACTIVITIES.html">Activities</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>   
+        </div>
+        <br>
+        <div class="wrapper">
+            <img src="18.jpg" class="hat">
+            <div class="textbox">
+                <h2>Wing Spiker</h2>
+                
+                <P><b>Wing Spikers</b> are the players who carry the serve and receive responsibility along with the libero. They are usually the ones who attack with the ball, which the setter sets to the antenna at either the left or right side of the court, and usually score the most points in the game. Spikers play both the front row and the back row.</P>
+                <P>Wing spikers are generally divided into two types:</P>
+                <P><b>•Left-Wing Spikers</b>, also known as Left-side Hitters or Outside Hitters, attack from near the left antenna. The outside hitter is usually the most consistent hitter on the team and gets the most sets. Inaccurate first passes usually result in a set to the outside hitter rather than the middle or opposite. Since most sets to the outside are high, the outside hitter may take a longer approach, always starting from outside the court sideline. For a non-beginners play, there are again two outside hitters on every team in every match.</P>
+
+                <P><b>•Right-Wing Spikers</b>, also known as Right-side Hitters or Opposite Hitters, carry the defensive workload for a volleyball team in the front row. Their primary responsibilities are to put up a well-formed block against the opponents outside hitters and serve as a backup setter. Sets to the opposite usually go to the right side of the antennae. There are two types of Opposite Hitters that teams use; in ordinary high school formations, the Opposite Position is given to Defensive Specialists with an overall balance play, while in professional formations, the Opposite Position is given to spikers with an overall immense Offensive capabilities, they tend to not receive or block, just attack.</P>
+                
+            </div>
+        </div>
+
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Logged out!</h2>
+                <a class="close" href="index.html">&times;</a>
+                <div class="content">
+                  After you logged out, the system automatically redirected you to the login page.
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+    </footer>
+</html>

@@ -1,0 +1,144 @@
+<html>
+    <heead>
+        <link rel="stylesheet" href="home.css">
+        <meta name="viewport" content="width=device-width ,intial-sacale=1.0">
+        <meta charset="UTF-8">
+        <style>
+        }
+
+.box {
+width: 40%;
+margin: 0 auto;
+background: rgba(41, 35, 35, 0.2);
+padding: 35px;
+border: 2px solid #fff;
+border-radius: 20px/50px;
+background-clip: padding-box;
+text-align: center;
+}
+
+.button {
+font-size: 1em;
+padding: 10px;
+color: #fff;
+border: 2px solid #06D85F;
+border-radius: 20px/50px;
+text-decoration: none;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
+.button:hover {
+background: #06D85F;
+}
+
+.overlay {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+
+.popup {
+margin: 70px auto;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+width: 30%;
+position: relative;
+transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+margin-top: 0;
+color: #333;
+font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+position: absolute;
+top: 20px;
+right: 30px;
+transition: all 200ms;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.popup .close:hover {
+color: #06D85F;
+}
+.popup .content {
+max-height: 30%;
+overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+.box{
+width: 70%;
+}
+.popup{
+width: 70%;
+}
+}
+</style>
+    </heead>
+    <body>
+        <div class="box">
+            <img src="logo.png" class="logo">
+            <img src="banner.png" class="banner">
+
+            <nav class="wild">
+                <ul>
+                    <li><a href="home.html" >Home</a></li>
+                    <li class="cool"><a href="About.html">About</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="Profile.html">Profile</a></li>
+                    <li><a href="index.html">Log In</a></li>
+                    <li><a href="#popup1">Log Out</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="ACTIVITIES.html">Activities</a></li>
+                    <li><a href="services.html">Services</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                </ul>
+            </nav>   
+        </div>
+
+        <div class="about">
+            <h1>ABOUT US</h1>
+            <p class="spam">"Haikyuu!!" is an immensely popular Japanese anime and manga series created by Haruichi Furudate. Set in the world of high school volleyball, the story follows the journey of Hinata Shoyo, a spirited and determined young athlete who dreams of becoming a top volleyball player despite his short stature.
+
+                Inspired by the legendary "Little Giant," a renowned volleyball player who captivated audiences with his remarkable skills despite his small stature, Hinata joins the volleyball team at Karasuno High School. Although initially faced with skepticism due to his lack of experience and height, Hinata's unwavering determination and natural talent quickly earn him a place on the team.</p>
+        </div>
+
+        <div class="about">
+            
+            <p class="spam">Throughout the series, Hinata forms deep bonds with his teammates, including the talented setter Tobio Kageyama, the stoic captain Daichi Sawamura, the enthusiastic libero Yu Nishinoya, and the skilled spiker Asahi Azumane. Together, they embark on a journey to revive Karasuno's volleyball team and reclaim its former glory as one of the top teams in the region.
+
+                "Haikyuu!!" is celebrated for its compelling storyline, dynamic characters, and exhilarating volleyball matches. From intense training sessions and thrilling tournaments to heartfelt moments of friendship and rivalry, the series captures the excitement, passion, and spirit of the sport like no other.
+                
+                Beyond its captivating sports action, "Haikyuu!!" explores themes of teamwork, perseverance, self-discovery, and the pursuit of excellence. Through the challenges and triumphs faced by its characters, the series inspires viewers to overcome obstacles, push their limits, and strive for greatness in their own endeavors.
+                
+                </p>
+        </div>
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>You're now logged out. Thank you for using our website<3</h2>
+                <a class="close" href="index.html">&times;</a>
+                <div class="content">
+                    After you logged out, the system automatically redirected you to the login page.
+                </div>
+            </div>
+        </div>
+    </body>
+    <footer>
+        <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+    </footer>
+</html>

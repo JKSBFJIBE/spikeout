@@ -1,0 +1,233 @@
+
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="home.css">
+		<style>
+		}
+
+.box {
+width: 40%;
+margin: 0 auto;
+background: rgba(41, 35, 35, 0.2);
+padding: 35px;
+border: 2px solid #fff;
+border-radius: 20px/50px;
+background-clip: padding-box;
+text-align: center;
+}
+
+.button {
+font-size: 1em;
+padding: 10px;
+color: #fff;
+border: 2px solid #06D85F;
+border-radius: 20px/50px;
+text-decoration: none;
+cursor: pointer;
+transition: all 0.3s ease-out;
+}
+.button:hover {
+background: #06D85F;
+}
+
+.overlay {
+position: fixed;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: rgba(0, 0, 0, 0.7);
+transition: opacity 500ms;
+visibility: hidden;
+opacity: 0;
+}
+.overlay:target {
+visibility: visible;
+opacity: 1;
+}
+
+.popup {
+margin: 70px auto;
+padding: 20px;
+background: #fff;
+border-radius: 5px;
+width: 30%;
+position: relative;
+transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+margin-top: 0;
+color: #333;
+font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+position: absolute;
+top: 20px;
+right: 30px;
+transition: all 200ms;
+font-size: 30px;
+font-weight: bold;
+text-decoration: none;
+color: #333;
+}
+.popup .close:hover {
+color: #06D85F;
+}
+.popup .content {
+max-height: 30%;
+overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+.box{
+width: 70%;
+}
+.popup{
+width: 70%;
+}
+}
+</style>
+    </head>
+    <body>
+        
+            <div class="box">
+                <img src="logo.png" class="logo">
+                <img src="banner.png" class="banner">
+
+                <nav class="wild">
+                    <ul>
+                        <li><a href="home.html" >Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                        <li><a href="Profile.html">Profile</a></li>
+                        <li><a href="index.html">Log In</a></li>
+                        <li><a href="#popup1">Log Out</a></li>
+                        <li><a href="register.html">Register</a></li>
+                        <li class="cool"><a href="ACTIVITIES.html">Activities</a></li><li><a href="services.html">Services</a></li>
+						<li><a href="videos.html">Videos</a></li>
+                    </ul>
+                </nav>
+            </div><br>
+
+	<center><h1>Bio Data</h1>
+   <center><body>
+   <table border="5">
+   <tr>
+   <td bgcolor="black"><h1><font color="white">Personal Information</font></h1> <img src="download.jpg"width=""height="50"><br><input type="file"></td> 
+   <tr>
+   <td>
+     
+       Name:<input type="text"> Position Desired:
+		<label for="position">Choose a Position:</label>
+  		<select id="position">
+   		<option value="manager">Manager</option>
+		<option value="employee">Employee</option>
+		<option value="director">Director</option>
+		<option value="office">Office</option>
+		<option value="web designer">Web Designer</option>
+		<option value="project manager">Project Manager</option>
+		<option value="account executive">Account Executive</option>
+		<option value="marketing coordinator">Marketing Coordinator</option>
+		<option value="medical assistant">Medical Assistant</option>
+		<option value="brand manager">Brand Manager</option>
+		</select>
+      <br>
+	Birth Date:<input type="date"/>  Birth of Place:_______________________________________
+		<br><br>Gender:
+		<label for="gender"></label>
+  		<select id="gender">
+   		<option value="male">MALE</option>
+		<option value="female">FEMALE</option></select>Cellphone:<input type="number">Telephone:<input type="number"><br><br>
+    	City Address:
+		<label for="Address"></label>
+  		<select id="Address">
+   		<option value="Quezon City">Quezon City</option>
+		<option value="Cagayan De Oro">Cagayan De Oro</option>
+		<option value="Davao">Davao</option>
+		<option value="Cebu">Cebu</option>
+		<option value="Naga">Naga</option>
+		<option value="Makati">Makati</option></select>
+	Province Address:<label for="Address"></label>
+  		<select id="Address">
+   		<option value="Batanes">Batanes</option>
+		<option value="Pampanga">Pampanga</option>
+		<option value="Cebu">Cebu</option>
+		<option value="Rizal">Rizal</option>
+		<option value="Bataan">Bataan</option>
+		<option value="Davao del Norte">Davao del Norte</option></select>
+	Civil Status:<select id="status">
+   		<option value="Married">Married</option>
+		<option value="Single">Single</option>
+		<option value="Taken">Taken</option>
+		<option value="Complicated">Complicated</option>
+		<option value="rather not to say">rather not to say</option>
+		</select><br><br>
+	E-mail Address:__________________________Citizenship:__________________________<br><br>
+Height:_________________________________Weight:_____________________________<br><br>
+Religion:__________________________________________________________________<br><br>
+Spouse:_____________________________Occupation:____________________________<br><br>
+Name of Children:_____________________Date of Birth:<input type="date"/><br><br> :____________________________________________________________ :<input type="date"/><br><br>
+:____________________________________________________________ :<input type="date"/><br><br>
+:____________________________________________________________ :<input type="date"/><br><br>
+Father's Name:________________________________________Date of Birth:<input type="date"/><br><br>
+Mother's Name:_______________________________________Date of Birth:<input type="date"/><br><br>
+Person to be contacted in case of emergency:_________________________________________<br><br>
+His or Her address and telephone number:___________________________________________
+ <tr>
+ <td bgcolor="black"><h1><font color="white">Educational Background</font></h1> 
+ <tr>
+ <td>
+Elementary:________________________________Year Graduated:<input type="year"><br><br>
+High Schools:______________________________Year Graduated:<input type="year"><br><br>
+College:__________________________________Year Graduated:<input type="year"><br><br>
+Degree Recieved:_____________________________________________________________<br><br>
+Special Skills:________________________________________________________________<br><br>
+ <tr>
+  <td bgcolor="black"><h1><font color="white">Employment Record</font></h1> 
+ <tr>
+ <td>
+ Company Name:______________________________________________________________<br>
+ Position:________________________________From:___________________To:___________<br><br>
+ Company Name:______________________________________________________________<br>
+ Position:________________________________From:___________________To:___________<br><br>
+ <tr>
+ <td>
+ </table border>
+ </center>     
+ <center>  <table border="5">   
+ <tr>
+ <td>  
+ Res. Cent. No.	:________________________________<br>
+ Issued at :____________________________________<br>
+ Issued on:___________________________________<br>
+ SSS:_____________________________________<br>
+ TIN:________________________________________<br>
+ NBI no.:___________________________________<br>
+ Passport No. :_________________________________<br>
+ <td>
+ 
+  
+<center><table> <p> I hereby certify that the above information is<br> true and correct to the best of my<br> knowledge and belief. I also <br>understand that any misinterpretetion<br> will be considered sufficient <br>reason for withdrawal of an<br> offer or subsequent dismissal if employed.</p><br>
+</center>
+<center>________________________<br><br>
+</center>
+<center>Applicant's Signature</center>
+</td>
+</table><br><br><br><div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>You're now logged out. Thank you for using our website<3</h2>
+		<a class="close" href="index.html">&times;</a>
+		<div class="content">
+			After you logged out, the system automatically redirected you to the login page.
+		</div>
+	</div>
+</div>
+   </body>
+       <footer>
+            <p>Jeslyn Jayne P. Tatel, Copyright &copy; 2024</p>
+        </footer>
+</html>
